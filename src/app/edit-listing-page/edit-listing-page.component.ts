@@ -15,7 +15,7 @@ export class EditListingPageComponent implements OnInit {
 
   ngOnInit(): void {
     const id = this.activeRouter.snapshot.paramMap.get('id');
-    this.listing = fakeListings.find(fakeListings=>fakeListings.id === id)
+    //this.listing = fakeListings.find(fakeListings=>fakeListings.id === id)
   }
   onSubmit():void {
     alert('Saving changes to listing.....');
